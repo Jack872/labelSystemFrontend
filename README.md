@@ -4,8 +4,8 @@
 ## 系统技术栈
 
 * 前端：React + Ant Design Pro + Ant Design + Axios + Openlayers
-* 后端：Koa + Geoserver + knex.js + canvas
-* 数据库：PostgreSQL
+* 后端：springboot
+* 数据库：PostgreSQL+redis
 
 > Node 版本16.14.2
 >
