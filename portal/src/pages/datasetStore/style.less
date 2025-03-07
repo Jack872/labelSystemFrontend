@@ -1,0 +1,50 @@
+.card {
+  .sample {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 82px;
+    padding: 0 10px;
+    // border-bottom: 1px solid #4c4b4b;
+    cursor: pointer;
+    &:hover {
+      background-color: rgb(241, 245, 254);
+    }
+    div {
+      margin: 5px;
+    }
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .currentSample {
+    background-color: rgb(241, 245, 254);
+    div {
+      font-weight: 700;
+      font-size: 16px;
+    }
+  }
+  .sampleImgContainer {
+    height: 50%;
+    p {
+      margin: 5px 0 0 0;
+      text-align: center;
+    }
+  }
+  .sampleInfo {
+    div {
+      display: flex;
+      flex-wrap: wrap;
+      font-style: 12px;
+      p + p::before {
+        content: '、';
+      }
+      span {
+        display: inline-block;
+        font-weight: 700;
+      }
+    }
+  }
+}

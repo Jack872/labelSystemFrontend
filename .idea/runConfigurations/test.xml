@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="test" type="js.build_tools.npm" nameIsGenerated="true">
+    <package-json value="$PROJECT_DIR$/portal/package.json" />
+    <command value="test" />
+    <node-interpreter value="D:/nodejs/node" />
+    <envs />
+    <method v="2" />
+  </configuration>
+</component>

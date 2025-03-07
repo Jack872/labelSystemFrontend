@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="COCO">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Service/COCO.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

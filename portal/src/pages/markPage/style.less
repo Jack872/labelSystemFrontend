@@ -1,0 +1,89 @@
+.ant-layout-content {
+  margin: 0 !important;
+}
+.map-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+.tools {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 0 10px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  opacity: 0.8;
+  button {
+    width: 70px;
+    margin: 5px;
+    color: #ffffff;
+    background-color: #173d7a;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .layerSelect {
+    margin: 0 10px;
+  }
+  .tag {
+    width: 20px;
+    height: 20px;
+    // margin-right: 2px;
+  }
+  .taskInfo span {
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .taskName {
+    margin-right: 10px;
+  }
+  .draw {
+    margin-right: 5px;
+  }
+}
+#passOrNot {
+  width: 100px;
+  height: 30px;
+  margin-left: 10px;
+}
+/* .draw {
+  height: 30px;
+  color: #ffffff;
+  background-color: #173d7a;
+  border-radius: 5px;
+} */
+/* 撤销恢复按钮 */
+#undo,
+#recover {
+  width: 40px;
+}
+#undo {
+  margin-right: 1px;
+  border-radius: 5px 0 0 5px;
+}
+#recover {
+  margin-left: 1px;
+  border-radius: 0px 5px 5px 0px;
+}
+/* 图标样式 */
+.recover {
+  transform: rotateY(180deg);
+}
+
+.select {
+  width: 100px;
+}
+
+.layer-switcher {
+  position: absolute;
+  top: 80px;
+  right: 0px;
+  text-align: left;
+  opacity: 1;
+}
